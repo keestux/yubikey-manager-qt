@@ -10,7 +10,7 @@ RUN apt-get install -y git make build-essential libssl-dev zlib1g-dev libbz2-dev
     qt512base qt512declarative qt512xmlpatterns qt512script qt512tools qt512multimedia \
     qt512svg qt512graphicaleffects qt512imageformats qt512translations qt512quickcontrols \
     qt512quickcontrols2 qt512sensors qt512serialbus qt512serialport qt512x11extras \
-    qt512connectivity qt512scxml qt512wayland qt512remoteobjects qt512creator qtbase5-dev \
+    qt512connectivity qt512scxml qt512wayland qt512remoteobjects qtbase5-dev \
     desktop-file-utils libglib2.0-bin qtchooser python3-pip python mesa-common-dev curl swig \
     libpcsclite-dev libffi-dev libykpers-1-1
 ENV QT_BASE_DIR=/opt/qt512 \
